@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "752933923992",
+    "project_id": "izooto-cdab7",
+    "storage_bucket": "izooto-cdab7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752933923992:android:98e4c0bc6538c0984c74ed",
+        "android_client_info": {
+          "package_name": "com.example.izooto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752933923992-s9kckuk21qffcg7ug9hdsa97an63h1aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAZo-qBaFRv7VfgzU5V_Lj4NL-ab3z3NU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752933923992-s9kckuk21qffcg7ug9hdsa97an63h1aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
