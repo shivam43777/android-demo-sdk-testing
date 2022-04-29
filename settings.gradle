@@ -5,7 +5,6 @@ pluginManagement {
         mavenCentral()
     }
 }
-//this is my first android application.....
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -15,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Izooto"
 include ':app'
-// making 2 branch in main file in  git main file
