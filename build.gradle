@@ -11,3 +11,4 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+//this is first git update and it is successfully completed
