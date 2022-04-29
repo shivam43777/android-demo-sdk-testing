@@ -24,6 +24,10 @@
 
         android:layout_height="wrap_content"/>
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/HGHGH"
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
