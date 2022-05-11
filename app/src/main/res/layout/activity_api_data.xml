@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#635B5B"
+    tools:context=".ApiData">
+<Button
+    android:layout_width="match_parent"
+    android:id="@+id/button1"
+    android:text="open to jeson Array list"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/senderID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:text="senderID"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/serverkey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="serverkey"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/appid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="serverkey"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/pid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="serverkey"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="serverkey"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="serverkey"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="serverkey"
+        android:textColor="#000"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/Avl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="serverkey"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
