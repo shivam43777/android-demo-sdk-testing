@@ -3,17 +3,28 @@ package com.example.izooto;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
 
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
 import com.izooto.NotificationHelperListener;
 import com.izooto.NotificationWebViewListener;
 import com.izooto.Payload;
 import com.izooto.TokenReceivedListener;
 import com.izooto.iZooto;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -21,10 +32,22 @@ import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity implements NotificationHelperListener,TokenReceivedListener,NotificationWebViewListener {
 
+    Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        button=findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,ApiData.class);
+                startActivity(intent);
+            }
+        });
+
+
 
 
         iZooto.initialize(this)
@@ -37,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements NotificationHelpe
 
         HashMap<String, Object> data = new HashMap<>();
 
-        data.put("Gender", "Male");
+        data.put("id", "key");
 //Key - Value can be customized to suit your needs
 
         iZooto.addUserProperty(data);
@@ -92,6 +115,7 @@ public class MainActivity extends AppCompatActivity implements NotificationHelpe
             e.printStackTrace();
         }
     }
+
 }
 
 

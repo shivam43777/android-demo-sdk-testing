@@ -10,6 +10,7 @@
     <Button
         android:layout_width="match_parent"
         android:text="click this button"
+        android:id="@+id/button"
         android:layout_height="wrap_content"/>
     <EditText
         android:layout_width="match_parent"
@@ -26,7 +27,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:src="@drawable/HGHGH"
+        android:src="@drawable/ic_launcher_background"
         android:layout_height="wrap_content"/>
 
 

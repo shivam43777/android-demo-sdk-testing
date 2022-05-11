@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Izooto">
         <activity
+            android:name=".MainActivityAPI"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".Apiarrayjesonexample"
+            android:exported="false" />
+        <activity
+            android:name=".ApiData"
+            android:exported="false" />
+        <activity
             android:name=".Webview"
             android:exported="false" />
         <activity
